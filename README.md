@@ -21,3 +21,16 @@ All data is presented in a .tsv format, with each row corresponding to one QA pa
     8. **answer** Answer.
     9. **untokenized sentence** Same sentence as in 1. but untokenized.
     10. **target indices for untok sent** Target indices extracted for a specific sentence using heuristics, for the untokenized sentence.
+    
+# Terms of Use
+- Resources on this page are licensed CC-BY 4.0, a Creative Commons license requiring Attribution (https://creativecommons.org/licenses/by/4.0/).
+- Please cite the following paper if you use the data: 
+```
+@inproceedings{pyatkin2020qadiscourse,
+  title={QADiscourse-Discourse Relations as QA Pairs: Representation, Crowdsourcing and Baselines},
+  author={Pyatkin, Valentina and Klein, Ayal and Tsarfaty, Reut and Dagan, Ido},
+  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages={2804--2819},
+  year={2020}
+}
+```
